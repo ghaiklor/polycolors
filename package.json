@@ -1,0 +1,41 @@
+{
+  "name": "polycolors",
+  "version": "1.0.0",
+  "description": "Yet another command-line coloring library with RGB support",
+  "homepage": "https://github.com/ghaiklor/polycolors#readme",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "author": {
+    "email": "ghaiklor@gmail.com",
+    "name": "Eugene Obrezkov",
+    "url": "https://ghaiklor.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghaiklor/polycolors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ghaiklor/polycolors/issues",
+    "email": "ghaiklor@gmail.com"
+  },
+  "keywords": [
+    "rgb",
+    "color",
+    "console",
+    "terminal",
+    "ansi",
+    "tty",
+    "shell"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node index.spec.js"
+  }
+}
